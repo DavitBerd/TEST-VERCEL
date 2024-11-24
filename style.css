@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Satisfy&display=swap');
+@font-face {
+    font-family: "Test";
+    src: url(Satisfy/Satisfy-Regular.ttf);
+}
+body{
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+h3{
+    text-transform: capitalize;
+    font-family: "Bokor";
+}
+a{
+    font-family: "Sevillana";
+}
+h4{
+    font-weight: 900;
+}
+p{
+    font-family: "Test", cursive;
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
